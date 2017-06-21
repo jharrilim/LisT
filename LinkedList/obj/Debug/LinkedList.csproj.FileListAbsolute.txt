@@ -1,5 +1,0 @@
-C:\Users\josep\Documents\Visual Studio 2017\Projects\LinkedListDemo\LinkedListDemo\bin\Debug\LinkedListDemo.dll
-C:\Users\josep\Documents\Visual Studio 2017\Projects\LinkedListDemo\LinkedListDemo\bin\Debug\LinkedListDemo.pdb
-C:\Users\josep\Documents\Visual Studio 2017\Projects\LinkedListDemo\LinkedListDemo\obj\Debug\LinkedList.csprojResolveAssemblyReference.cache
-C:\Users\josep\Documents\Visual Studio 2017\Projects\LinkedListDemo\LinkedListDemo\obj\Debug\LinkedListDemo.dll
-C:\Users\josep\Documents\Visual Studio 2017\Projects\LinkedListDemo\LinkedListDemo\obj\Debug\LinkedListDemo.pdb
