@@ -16,11 +16,9 @@ namespace LinkedList.Demo
             list.Drop(money);
             list.Raise(dollar);
             list.Drop(name);
-            //list.ForEach(item => Console.WriteLine(item));
-            for(int i = 0; i < list.Count; i++)
-            {
-                Console.WriteLine(list[i]);
-            }
+            list.ForEach(item => Console.WriteLine(item));
+            var x = list.SelectFirst(obj => (string)obj == "Joe");
+            Console.WriteLine(x);
         }
     }
 }

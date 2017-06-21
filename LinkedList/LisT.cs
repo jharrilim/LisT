@@ -154,11 +154,22 @@ namespace LinkedList
         public void ForEach(Action<T> action)
         {
             ListNode<T> current = back;
-            while (current.Next != front)
+            while (current != null)
             {
                 action(current.Data);
                 current = current.Next;
             }
+        }
+
+        public T SelectFirst(Predicate<T> predicate)
+        {
+            ListNode<T> current = back;
+            while (current != null)
+            {
+                if (predicate(current.Data))
+                    return current.Data;
+            }
+            return default(T);
         }
     }
 }
